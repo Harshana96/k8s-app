@@ -7,5 +7,5 @@ metadata:
 spec:
   containers:
   - name: backend
-    image: python:3.11-slim
-    command: ["echo", "hello from kubernetes"]
+    image: docker-microservices-app-backend:latest
+    imagePullPolicy: Never
